@@ -56,7 +56,7 @@ body {
 }
 .main_container .question_container .question_list .question_item {
     width: 100%;
-    height: 300px;
+    height: 500px;
     padding: 10px;
     box-sizing: border-box;
     border: 1px solid #ddd;
@@ -72,4 +72,30 @@ body {
 .main_container .question_container .question_list .question_item .question_item_title {
     font-size: 14px;
     line-height: 17px;
+}
+
+.question_container .question_list .question_item .question_item_title .answer_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+}
+
+.question_container .question_list .question_item .question_item_title .answer_input {
+    width: 80%;
+    height: 30px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.question_container .question_list .question_item .question_item_title .answer_textarea {
+    width: 90%;
+    height: 200px;
+    border: 1px solid #ddd;
+    outline: none;
+    resize: none;
 }
